@@ -1,0 +1,11 @@
+name: CreeperEggLaunch
+author: Strahan
+main: com.sylvcraft.CreeperEggLaunch
+version: 1.0
+api-version: 1.16
+description: Creates throwable creeper spawn eggs
+commands:
+  creepegg:
+    description: Plugin command
+  creepeggcfg:
+    description: Config command

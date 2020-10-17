@@ -1,0 +1,30 @@
+config:
+  velocityMultiplier: 1
+localization:
+  messages:
+    access-denied: '&cAccess denied!'
+    players-only: 'This command is for in-game use only'
+    invalid-health-value: '&cInvalid health value!'
+    invalid-fuse-value: '&cInvalid fuse value!'
+    invalid-radius-value: '&cInvalid radius value!'
+    invalid-velocity-value: '&cInvalid velocity value!'
+    lore-set: '&6Lore has been set!'
+    velocity-set: '&6Velocity multiplier set to &b%value%'
+  components:
+    ignited:
+      lore: 'Creeper will be triggered immediately'
+      arg: 'ignited'
+    charged:
+      lore: 'Creeper will be charged'
+      arg: 'charged'
+    health:
+      lore: 'Health: '
+      arg: 'health'
+    fuse:
+      lore: 'Fuse time: '
+      arg: 'fuse'
+    radius:
+      lore: 'Explosion radius: '
+      arg: 'radius'
+    displayName: '&6Throwable &aCreeper &6Egg'
+    loreTitle: '&6Spawns a creeper where the egg lands'
